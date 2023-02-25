@@ -1,0 +1,33 @@
+<table>
+    <th>
+        <tr>
+            <td>student </td>
+            <td>student name</td>
+        </tr>
+    </th>
+    <tbody>
+        <tr>
+            <td>123</td>
+            <td>john doe</td>
+        </tr>
+        <tr>
+            <td>234</td>
+            <td>juan dela cruz</td>
+        </tr>
+      <form action="" method="GET">
+    <input type="text" name="fullname">
+    <input type="number" name="number">
+    <input type="email" name="email">
+    <input type="date" name="birthday">
+    <input type="password" name="password">
+    <textarea name="" id="" cols="30" rows="10">
+    
+
+    </textarea>
+
+    <button type="submit">submit</button>
+    <button type="button">just a button</button>
+</form>
+
+    </tbody>
+</table>
