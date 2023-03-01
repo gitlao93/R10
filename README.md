@@ -4,17 +4,16 @@
     <meta charset="UTF-8"><!--This line specifies the character encoding used for the document, which is necessary for the browser to correctly display special characters.-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--This line specifies the compatibility mode for the document, specifically for Internet Explorer.-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--This line specifies the viewport settings for the document, which affects how the page is displayed on different devices with different screen sizes.-->
-    <title>r10 HTML and CSS</title><!--This line specifies the title of the document, which is displayed in the browser's title bar and is used by search engines to index the page.-->
+    <title>Aladdin A. Buwanding</title><!--This line specifies the title of the document, which is displayed in the browser's title bar and is used by search engines to index the page.-->
 </head>
 
-
-
 <body><!--This tag marks the beginning of the body section of the HTML document, which contains the visible content of the page.-->
-    
 
 
-    <!-- Semantic tags (<header>, <nav>, <main>, <footer>, etc.): These tags are used to define the different sections of your page, such as the header, navigation, main content, 
+    <!-- Semantic tags (<header>, <nav>, <main>, <footer>, etc.): These tags are used to define the different sections of your page, such as the header, navigation, main content,
+
 and footer, and can help search engines better understand the structure of your page. -->
+
 <header>   
     <img src="https://www.tailorbrands.com/wp-content/uploads/2020/07/mcdonalds-logo.jpg" alt="this is a logo" width="100px">
     <nav>
@@ -39,6 +38,7 @@ least important. -->
 <p>this is a paragraph</p>
 
 <!-- Links (<a>): These tags are used to create links to other web pages, images, or files. -->
+
 <a href="https://www.google.com/" target="_blank">this is an anchor tag</a>
 
 <!-- Images (<img>): These tags are used to insert images into your page. -->
@@ -58,6 +58,7 @@ least important. -->
 </ol>
 
 <!-- Tables (<table>, <tr>, <td>): These tags are used to define tables on your page, with <tr> defining each row and <td> defining each cell. -->
+
     <table>
         <th>
             <tr>
@@ -79,6 +80,7 @@ least important. -->
     </table>
 
 <!-- Forms (<form>, <input>, <label>, etc.): These tags are used to create forms on your page that allow users to submit information. -->
+
     <form action="" method="GET">
         <input type="text" name="fullname">
         <input type="number" name="number">
@@ -86,13 +88,14 @@ least important. -->
         <input type="date" name="birthday">
         <input type="password" name="password">
         <textarea name="" id="" cols="30" rows="10">
-        
+
 
         </textarea>
 
         <button type="submit">submit</button>
         <button type="button">just a button</button>
     </form>
+
 </main>
 
 <footer>
