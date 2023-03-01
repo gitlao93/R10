@@ -68,7 +68,24 @@ section {
     height: 60vh;
     padding: 75px 20px;
 }
+.title-section{
+    height: 15vh;
+}
 
+.title h1{
+    position: absolute;
+    width: 237px;
+    height: 46px;
+    left: 650px;
+    top: 1400.51px; 
+    font-family: 'GT Walsheim Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    /* identical to box height */
+    color: #0048FF;
+}
 /* hero banner section */
 .banner-section {
     display: flex;
