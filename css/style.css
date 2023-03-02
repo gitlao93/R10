@@ -197,25 +197,41 @@ section {
     color: #0048FF;
 }
 
+.service-section > div {
+    width: 50%;
+}
+
 .service-section{
     display: flex;
     flex-wrap: nowrap;
     height: 80vh;
     padding: 0 40px;
-    background-color: #0048FF;
+    background-color: gray;
 }
 
-.service-container {
-    height: 100%;
-    width: 90%;
-    margin: 0 auto;
-    border-radius: 500px;
-    background: #C4D4FF;
+.service-info {
     display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    padding: 40px;
+    padding: 0 22px;
+    background-color: aqua;
+}
+
+.service-info h2{
+    font-family: 'GT Walsheim Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 34px;
+color: #002B9A;
+}
+.service-info p {
+    font-family: 'GT Walsheim Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+color: #555555;
 }
 
 
