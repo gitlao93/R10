@@ -191,7 +191,7 @@ section {
 
 .title-section{
     height: 2vh;
-    padding: 35px 100px;
+    padding: 170px 100px;
     
 }
 
@@ -215,6 +215,7 @@ section {
     flex-wrap: nowrap;
     height: 80vh;
     padding: 0 40px;
+    background-color: beige;
 }
 
 .service-info {
@@ -262,6 +263,7 @@ color: #555555;
     flex-wrap: nowrap;
     height: 80vh;
     padding: 0 40px;
+    background: #F5F8FF;
 }
 
 .service-info2 {
@@ -278,7 +280,26 @@ color: #555555;
 }
 
 .service-image2 img{
-    margin-left: 100px;
+    margin-left: 200px;
 }
+
+.service-info2 h2{
+    font-family: 'GT Walsheim Pro', 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    color: #002B9A;
+    }
+    .service-info2 p {
+    font-family: 'GT Walsheim Pro', 'Arial';
+    height: 142px;
+    width: 531px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #555555;
+    }
 
 
