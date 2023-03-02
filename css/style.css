@@ -68,22 +68,6 @@ section {
     height: 60vh;
     padding: 75px 20px;
 }
-.title-section{
-    height: 10vh;
-    padding: 100px 10px;
-    
-}
-
-.title h1{
-    display: flex;
-    justify-content: center;
-    font-family: 'GT Walsheim Pro','Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 46px;
-    color: #0048FF;
-}
 
 /* hero banner section */
 .banner-section {
@@ -196,46 +180,42 @@ section {
     line-height: 40px;
 }
 
+.title-section{
+    height: 10vh;
+    padding: 100px 10px;
+    
+}
+
+.title h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'GT Walsheim Pro','Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #0048FF;
+}
+
 .service-section{
     display: flex;
     flex-wrap: nowrap;
-    flex-direction: column;
     height: 80vh;
-    padding: 75px 150px;
+    padding: 0 40px;
+    background-color: #0048FF;
 }
 
 .service-container {
-    width: 458px;
-    font-family: 'GT Walsheim Pro', 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 34px;
-    color: #002B9A
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 500px;
+    background: #C4D4FF;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
 }
 
-.service-paragraph {
-    width: 478px;
-    height: 200px;
-    font-family: 'GT Walsheim Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 34px;
-    color: #555555;
-}
 
-.service-selected {
-    width: 200px;
-    height: 50px;
-}
-.box{
-    width: 500px;
-    height: 500px;
-}
-.service-image{
-margin-left: 700px;
-margin-top: 500;
-width: 50px;
-height: 50px;
-}
