@@ -291,7 +291,7 @@ color: #555555;
     line-height: 34px;
     color: #002B9A;
     }
-    .service-info2 p {
+.service-info2 p {
     font-family: 'GT Walsheim Pro', 'Arial';
     height: 142px;
     width: 531px;
@@ -301,5 +301,52 @@ color: #555555;
     line-height: 34px;
     color: #555555;
     }
+
+
+.servicemap-section > div {
+    width: 50%;
+}
+
+.servicemap-section{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 80vh;
+    padding: 0 40px;
+    background-color: beige;
+}
+
+.servicemap-info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 22px;
+    margin-left: 200px;
+}
+
+.servicemap-info-section h2{
+    font-family: 'GT Walsheim Pro', 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    color: #002B9A;
+}
+
+.service-info ul {
+    list-style-type:armenian;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-info li {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin: 111px -54px;
+}
+
 
 
