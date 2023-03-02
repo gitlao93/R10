@@ -253,6 +253,32 @@ color: #555555;
     margin-left: 100px;
 }
 
+.service-section2 > div {
+    width: 50%;
+}
 
+.service-section2{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 80vh;
+    padding: 0 40px;
+}
+
+.service-info2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 22px;
+    margin-left: 200px;
+}
+
+.service-image2 {
+    display: flex;
+    align-items: center;
+}
+
+.service-image2 img{
+    margin-left: 100px;
+}
 
 
