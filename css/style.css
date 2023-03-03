@@ -61,9 +61,6 @@ li {
 }
 
 
-
-
-
 section {
     height: 60vh;
     padding: 75px 20px;
@@ -169,4 +166,55 @@ section {
     font-weight: 400;
     font-size: 20px;
     line-height: 40px;
+}
+.ser-sec{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.OurServiceH1{
+margin-left: 5%;
+margin-right: 5%;
+width: 244px;
+height: 46px;
+left: 581px;
+top: 1193px;
+
+font-family: 'GT Walsheim Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+margin-bottom: 0%;
+color: #0048FF;
+}
+.service-section{
+margin-top: 0px;
+width: 1278px;
+height: 400px;
+left: 81px;
+top: 1288.51px;
+}
+
+footer{
+width: 100%;
+height: 100px;
+left: 81px;
+top: 4985.33px;
+background: #333333;
+}
+.footer-paragraph{
+width: 346px;
+height: 23px;
+left: 563.5px;
+top: 5023.83px;
+
+font-family: 'GT Walsheim Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #FFFFFF;
+text-align: center;
+margin: 0 30px;
 }
