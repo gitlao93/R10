@@ -1,0 +1,95 @@
+body {
+    display: grid;
+    width: 1440px;
+    height: 727px;
+    grid-template-areas:
+        'header header header header header header'
+        'menu main main main main right'
+        'menu main main main main right'
+        'menu main main main main right'
+        'menu main main main main right'
+        'menu footer footer footer footer footer';
+    gap: 10px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+header.headerC {
+    display: grid;
+    background-color: yellow;
+    grid-area: header;
+}
+
+main.mainC {
+    display: grid;
+    background-color: deeppink;
+    grid-area: main;
+}
+
+menu.menuC {
+    display: grid;
+    background-color: red;
+    grid-area: menu;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+right.rightC {
+    display: grid;
+    grid-area: right;
+    background-color: #3fdf3f;
+}
+
+footer.footerC {
+    display: grid;
+    background-color: blue;
+    grid-area: footer;
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        display: grid;
+        width: 1024px;
+        height: 727px;
+        grid-template-areas:
+            'header header header header header header header'
+            'main main main main main right right'
+            'main main main main main right right'
+            'main main main main main right right'
+            'main main main main main right right'
+            'footer footer footer footer footer footer footer';
+        gap: 0px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    menu.menuC {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 430px) {
+    body {
+        display: grid;
+        width: 430px;
+        height: 727px;
+        grid-template-areas:
+            'header header header'
+            'main main main'
+            'main main main'
+            'main main main'
+            'main main main'
+            'footer footer footer ';
+        gap: 0px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    menu.menuC {
+        display: none;
+    }
+
+    right.rightC {
+        display: none;
+    }
+  }
