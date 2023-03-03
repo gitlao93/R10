@@ -216,6 +216,7 @@ section {
     align-items: center;
     justify-content: center;
     padding: 40px;
+ 
 }
 
 .service-info {
@@ -254,19 +255,24 @@ color: #555555;
     margin-left: 100px;
 }
 
-.service-section2 > div {
-    width: 50%;
-}
 
-.service-section2{
+
+.sofware-section{
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 500px 0 0 500px;
+    background:  #F5F8FF;
     display: flex;
     flex-wrap: nowrap;
-    height: 80vh;
-    padding: 0 40px;
-    background: #F5F8FF;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-.service-info2 {
+.sofware-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -274,24 +280,24 @@ color: #555555;
     margin-left: 200px;
 }
 
-.service-image2 {
+.sofware-image {
     display: flex;
     align-items: center;
 }
 
-.service-image2 img{
+.sofware-image{
     margin-left: 200px;
 }
 
-.service-info2 h2{
+.soft-h2{
     font-family: 'GT Walsheim Pro', 'Arial';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
-    line-height: 34px;
+    line-height: 32px;
     color: #002B9A;
     }
-.service-info2 p {
+.sofware-info p {
     font-family: 'GT Walsheim Pro', 'Arial';
     height: 142px;
     width: 531px;
@@ -303,9 +309,6 @@ color: #555555;
     }
 
 
-.servicemap-section > div {
-    width: 50%;
-}
 
 .servicemap-section{
     height: 100%;
@@ -317,6 +320,7 @@ color: #555555;
     align-items: center;
     justify-content: center;
     padding: 40px;
+    margin-bottom: 80px;
 }
 
 .servicemap-info-section {
@@ -336,13 +340,13 @@ color: #555555;
     color: #002B9A;
 }
 
-.service-info ul {
+.servicemap-info ul {
     list-style-type:armenian;
     display: flex;
     flex-direction: column;
 }
 
-.service-info li {
+.servicemap-info li {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -361,7 +365,7 @@ top: 4985.33px;
 background: #333333;
 }
 .footer-paragraph{
-width: 346px;
+width: 400px;
 height: 23px;
 left: 563.5px;
 top: 5023.83px;
@@ -373,6 +377,8 @@ font-size: 20px;
 line-height: 23px;
 
 color: #FFFFFF;
-text-align: center;
+text-align: left;
 margin: 0 30px;
+margin-right: 10%;
+
 }
