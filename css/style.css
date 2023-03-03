@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0%;
 }
 header {
     display: flex;
@@ -114,6 +115,14 @@ section {
     background: linear-gradient(238.41deg, #09153F 1.24%, #002BC2 57.38%);
     border-radius: 100px;
 }
+#learn-more-btn2 {
+    width: 200px;
+    padding: 10px 30px;
+    color: blue;
+    border-color: #0048FF;
+    background:#F9F9F9;
+    border-radius: 100px;
+}
 
 .hero-img {
     display: flex;
@@ -167,33 +176,182 @@ section {
     font-size: 20px;
     line-height: 40px;
 }
-.ser-sec{
-    margin-left: 40%;
-    margin-right: 40%;
-}
-.OurServiceH1{
-margin-left: 5%;
-margin-right: 5%;
-width: 244px;
-height: 46px;
-left: 581px;
-top: 1193px;
 
-font-family: 'GT Walsheim Pro';
+.extra-section div:first-child {
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: 200;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.title-section{
+    height: 2vh;
+    padding: 170px 100px;
+    
+}
+
+.title h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'GT Walsheim Pro','Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #0048FF;
+}
+
+
+
+.service-section{
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 0 500px 500px 0;
+    background:  #FFF5FF;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.service-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 22px;
+    margin-left: 200px;
+}
+
+.service-info h2{
+font-family: 'GT Walsheim Pro', 'Arial';
 font-style: normal;
 font-weight: 700;
-font-size: 40px;
-line-height: 46px;
-margin-bottom: 0%;
-color: #0048FF;
+font-size: 30px;
+line-height: 34px;
+color: #002B9A;
 }
-.service-section{
-margin-top: 0px;
-width: 1278px;
-height: 400px;
-left: 81px;
-top: 1288.51px;
+.service-info p {
+font-family: 'GT Walsheim Pro', 'Arial';
+height: 142px;
+width: 531px;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+color: #555555;
 }
+
+.service-image{
+    display: flex;
+    align-items: center;
+}
+
+.service-image img{
+    margin-left: 100px;
+}
+
+.service-section2 > div {
+    width: 50%;
+}
+
+.service-section2{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 80vh;
+    padding: 0 40px;
+    background: #F5F8FF;
+}
+
+.service-info2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 22px;
+    margin-left: 200px;
+}
+
+.service-image2 {
+    display: flex;
+    align-items: center;
+}
+
+.service-image2 img{
+    margin-left: 200px;
+}
+
+.service-info2 h2{
+    font-family: 'GT Walsheim Pro', 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    color: #002B9A;
+    }
+.service-info2 p {
+    font-family: 'GT Walsheim Pro', 'Arial';
+    height: 142px;
+    width: 531px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #555555;
+    }
+
+
+.servicemap-section > div {
+    width: 50%;
+}
+
+.servicemap-section{
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    background:  #F9F9F9;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.servicemap-info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 22px;
+    margin-left: 200px;
+}
+
+.servicemap-info-section h2{
+    font-family: 'GT Walsheim Pro', 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    color: #002B9A;
+}
+
+.service-info ul {
+    list-style-type:armenian;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-info li {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin: 111px -54px;
+}
+
 
 footer{
 width: 100%;
