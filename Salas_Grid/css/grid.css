@@ -1,0 +1,99 @@
+.item1 {
+	grid-area: header;
+	background-color: #ffffff;
+}
+.item2 {
+	grid-area: menu;
+	background-color: #6b0df7;
+}
+.item3 {
+	grid-area: main;
+	background-color: #0bdaff;
+}
+.item4 {
+	grid-area: right;
+	background-color: #f7a313;
+}
+.item5 {
+	grid-area: footer;
+	background-color: #ff0b0b;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-areas:
+		'header header header header header header'
+		'menu main main main right right'
+		'menu footer footer footer footer footer';
+	gap: 10px;
+	background-color: #0bff2b;
+	padding: 10px;
+}
+
+.grid-container > div {
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.grid-container {
+		background-color: red;
+		grid-template-areas:
+			'header'
+			'menu'
+			'main'
+			'right'
+			'footer';
+	}
+	.item1, .item2, .item3, .item4, .item5 {
+		grid-area: unset;
+	}
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.grid-container {
+		background-color: green;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.grid-container {
+		background-color: blue;
+		grid-template-areas:
+			'header header header header menu right'
+			'main main main main menu right'
+			'footer footer footer footer menu right';
+	}
+	.item1 {
+		grid-area: header;
+	}
+	.item2 {
+		grid-area: menu;
+	}
+	.item3, .item4 {
+		grid-area: main;
+	}
+	.item5 {
+		grid-area: footer;
+	}
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.grid-container {
+		background-color: orange;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.grid-container {
+		background-color: pink;
+	}
+}
