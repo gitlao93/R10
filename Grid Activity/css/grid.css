@@ -1,13 +1,77 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #7b18a8;
-    padding: 10px;
-  }
-  .grid-item {
-    background-color: rgba(150, 171, 180, 0.8);
-    border: 1px solid rgb(0, 0, 0);
-    padding: 20px;
+.grid-container
+{
+    display:grid;
+    width: 1440px;
+    height: 1024px;
+    grid-template-columns: 0.2fr 0.5fr 0.2fr;
+    grid-template-rows: 0.2fr 0.7fr 0.1fr;
+    grid-template-areas: 
+        "Header Header Header"
+        "Menu Main Right"
+        "Menu Footer Footer"
+    ;
+    grid-gap: 0.2rem;
+
     font-size: 30px;
+    font-weight: 200px;
     text-align: center;
+}
+
+.Header
+{
+    background-color: linear-gradient(238.41deg, #09153F 1.24%, #8b00c2c7 57.38%);
+    grid-area: Header;
+}
+
+.Menu
+{
+    background-color: linear-gradient(238.41deg, #09153F 1.24%, #8b00c2c7 57.38%);
+    grid-area: Menu;
+}
+
+.Main
+{
+    background-color: linear-gradient(238.41deg, #09153F 1.24%, #8b00c2c7 57.38%);
+    grid-area: Main;
+}
+
+.Right
+{
+    background-color: linear-gradient(238.41deg, #09153F 1.24%, #8b00c2c7 57.38%);
+    grid-area: Right;
+}
+
+.Footer
+{
+    background-color: linear-gradient(238.41deg, #09153F 1.24%, #8b00c2c7 57.38%);
+    grid-area: Footer;
+}
+
+@media screen and (max-width:1024px) {
+    .grid-container
+    {
+        max-height: 1366px;
+        grid-template-columns: 1fr 0.5fr;
+        grid-template-rows: 0.2fr 1fr 0.2fr;
+        grid-template-areas:
+          "Header Header"
+          "Main Right"
+          "Footer Footer"
+          ;
+        
+    }
+}
+
+@media screen and (max-width:430px)
+{
+  .grid-container
+  {
+        grid-template-columns: 1fr ;
+        grid-template-rows: 0.2fr 1fr 0.2fr;
+        grid-template-areas:
+          "Header"
+          "Main"
+          "Footer"
+          ;
   }
+}
