@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
 }
@@ -169,4 +171,32 @@ section {
     font-weight: 400;
     font-size: 20px;
     line-height: 40px;
+}
+
+.service-container{
+    position: absolute;
+    width: 1278px;
+    height: 400px;
+    left: 81px;
+    top: 2784.51px;
+
+    background: #F9F9F9;
+}
+
+.service-container div:first-child h1 {
+   
+    position: absolute;
+    width: 237px;
+    height: 46px;
+    left: 601.5px;
+    top: 2688.51px;
+    
+    font-family: 'GT Walsheim Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    
+    color: #0048FF;
+
 }
