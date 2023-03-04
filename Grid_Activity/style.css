@@ -1,8 +1,29 @@
-@media only screen and (max-width: 430px){
+.item1{
+  background-color: #f9fd1d;
+  grid-area: header;
+  font-size: 30px;
+}.item2{
+  background-color: #fc0000;
+  grid-area: menu;
+  font-size: 30px;
+}.item3{
+  background-color: #fa14e7ec;
+  grid-area: main;
+  font-size: 30px;
+}.item4{
+  background-color: #00ff62f5;
+  grid-area: right;
+  font-size: 30px;
+}.item5{
+  background-color: #1100ff;
+  grid-area: footer;
+  font-size: 30px;
+}
+@media only screen and (min-width: 0px){
   .grid-container {
     display: grid;
     height: 100vh;
-    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 0.2fr 1.5fr 0.2fr;
     grid-template-areas:
       'header header header'
@@ -11,24 +32,9 @@
     gap: 10px;
     padding: 10px;
   }
-  
- 
-  .item1{
-    background-color: #f9fd1d;
-    grid-area: header;
-    font-size: 30px;
-  }.item3{
-    background-color: #fa14e7ec;
-    grid-area: main;
-    font-size: 30px;
-  }.item5{
-    background-color: #1d0df8;
-    grid-area: footer;
-    font-size: 30px;
-  }
 
-  }
-@media only screen and (min-width: 431px){
+}
+@media only screen and (min-width: 440px){
     .grid-container {
       display: grid;
       height: 100vh;
@@ -41,23 +47,7 @@
       gap: 10px;
       padding: 10px;
     }
-    .item1{
-      background-color: #f9fd1d;
-      grid-area: header;
-      font-size: 30px;
-    }.item3{
-      background-color: #fa14e7ec;
-      grid-area: main;
-      font-size: 30px;
-    }.item4{
-      background-color: #00ff62;
-      grid-area: right;
-      font-size: 30px;
-    }.item5{
-      background-color: #1d0df8;
-      grid-area: footer;
-      font-size: 30px;
-    }
+    
   
 }
 @media only screen and (min-width: 1440px) {
@@ -74,26 +64,6 @@
     gap: 10px;
     padding: 10px;
   }
-  .item1{
-    background-color: #f9fd1d;
-    grid-area: header;
-    font-size: 30px;
-  }.item2{
-    background-color: #fc0000;
-    grid-area: menu;
-    font-size: 30px;
-  }.item3{
-    background-color: #fa14e7ec;
-    grid-area: main;
-    font-size: 30px;
-  }.item4{
-    background-color: #00ff62;
-    grid-area: right;
-    font-size: 30px;
-  }.item5{
-    background-color: #1d0df8;
-    grid-area: footer;
-    font-size: 30px;
-  }
+  
 }
  
