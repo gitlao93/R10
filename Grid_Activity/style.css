@@ -1,27 +1,99 @@
-.item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
-  gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-}
-
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
-@media only screen and (max-width: 1440px) {
-    
+@media only screen and (max-width: 430px){
+  .grid-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 0.2fr 1.5fr 0.2fr;
+    grid-template-areas:
+      'header header header'
+      'main main main'
+      'footer footer footer';
+    gap: 10px;
+    padding: 10px;
+  }
+  
+ 
+  .item1{
+    background-color: #f9fd1d;
+    grid-area: header;
+    font-size: 30px;
+  }.item3{
+    background-color: #fa14e7ec;
+    grid-area: main;
+    font-size: 30px;
+  }.item5{
+    background-color: #1d0df8;
+    grid-area: footer;
+    font-size: 30px;
+  }
 
   }
+@media only screen and (min-width: 431px){
+    .grid-container {
+      display: grid;
+      height: 100vh;
+      grid-template-columns: 0.5fr 1fr 0.5fr;
+      grid-template-rows: 0.2fr 1.5fr 0.2fr;
+      grid-template-areas:
+        'header header header'
+        'main main right'
+        'footer footer footer';
+      gap: 10px;
+      padding: 10px;
+    }
+    .item1{
+      background-color: #f9fd1d;
+      grid-area: header;
+      font-size: 30px;
+    }.item3{
+      background-color: #fa14e7ec;
+      grid-area: main;
+      font-size: 30px;
+    }.item4{
+      background-color: #00ff62;
+      grid-area: right;
+      font-size: 30px;
+    }.item5{
+      background-color: #1d0df8;
+      grid-area: footer;
+      font-size: 30px;
+    }
+  
+}
+@media only screen and (min-width: 1440px) {
+  
+  .grid-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 0.2fr 1.5fr 0.2fr;
+    grid-template-areas:
+      'menu header header'
+      'menu main right'
+      'menu footer footer';
+    gap: 10px;
+    padding: 10px;
+  }
+  .item1{
+    background-color: #f9fd1d;
+    grid-area: header;
+    font-size: 30px;
+  }.item2{
+    background-color: #fc0000;
+    grid-area: menu;
+    font-size: 30px;
+  }.item3{
+    background-color: #fa14e7ec;
+    grid-area: main;
+    font-size: 30px;
+  }.item4{
+    background-color: #00ff62;
+    grid-area: right;
+    font-size: 30px;
+  }.item5{
+    background-color: #1d0df8;
+    grid-area: footer;
+    font-size: 30px;
+  }
+}
+ 
