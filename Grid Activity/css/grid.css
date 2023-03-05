@@ -1,49 +1,45 @@
 .grid-container
 {
     display:grid;
-    width: 1440px;
-    height: 1024px;
-    grid-template-columns: 0.2fr 0.5fr 0.2fr;
-    grid-template-rows: 0.2fr 0.7fr 0.1fr;
+    height: 100vh;
+    grid-template-columns: 0.7fr 2fr .7fr;
+    grid-template-rows: .7fr 2.5fr .7fr;
     grid-template-areas: 
         "Header Header Header"
         "Menu Main Right"
         "Menu Footer Footer"
     ;
-    grid-gap: 0.2rem;
+    grid-gap: 0rem;
 
-    font-size: 30px;
-    font-weight: 200px;
-    text-align: center;
 }
 
 .Header
 {
-    background-color: linear-gradient(238.41deg, #09153F 1.24%, #8b00c2c7 57.38%);
+    background-color:  rgb(140, 109, 175);
     grid-area: Header;
 }
 
 .Menu
 {
-    background-color: linear-gradient(238.41deg, #09153F 1.24%, #8b00c2c7 57.38%);
+    background-color:  rgb(129, 138, 52);
     grid-area: Menu;
 }
 
 .Main
 {
-    background-color: linear-gradient(238.41deg, #09153F 1.24%, #8b00c2c7 57.38%);
+    background-color:  rgb(124, 187, 230);
     grid-area: Main;
 }
 
 .Right
 {
-    background-color: linear-gradient(238.41deg, #09153F 1.24%, #8b00c2c7 57.38%);
+    background-color:  rgb(61, 95, 63);
     grid-area: Right;
 }
 
 .Footer
 {
-    background-color: linear-gradient(238.41deg, #09153F 1.24%, #8b00c2c7 57.38%);
+    background-color:  rgb(207, 139, 100);
     grid-area: Footer;
 }
 
