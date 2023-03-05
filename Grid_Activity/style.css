@@ -19,7 +19,7 @@
   grid-area: footer;
   font-size: 30px;
 }
-@media only screen and (min-width: 0px){
+@media only screen and (min-width: 430px){
   .grid-container {
     display: grid;
     height: 100vh;
@@ -34,7 +34,7 @@
   }
 
 }
-@media only screen and (min-width: 440px){
+@media only screen and (min-width: 1000px){
     .grid-container {
       display: grid;
       height: 100vh;
@@ -47,7 +47,7 @@
       gap: 10px;
       padding: 10px;
     }
-    
+  
   
 }
 @media only screen and (min-width: 1440px) {
