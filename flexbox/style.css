@@ -1,0 +1,305 @@
+*{ 
+ margin: 0;
+ 
+}
+body {
+    margin: 0;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #F9F9F9;
+    padding: 20px;
+}
+
+.logo-container {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-in-btn {
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin: 0 30px;
+}
+
+#sign-in-btn {
+    width: 121px;
+    height: 43px;
+    border: 2px solid #FFC1DC;
+    border-radius: 100px;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    
+}
+
+
+
+
+
+section {
+    height: 60vh;
+    padding: 75px 20px;
+}
+
+/* hero banner section */
+.banner-section {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 80vh;
+    padding: 0 40px;
+}
+
+.banner-section > div {
+    width: 50%
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 25px;
+}
+
+.hero-info h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 56px;
+    background: linear-gradient(90.79deg, #0048FF 3.42%, #D6008D 82.66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero-info p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 36px;
+
+    color: #555555;
+}
+
+#learn-more-btn {
+    width: 200px;
+    padding: 10px 30px;
+    color: white;
+    background: linear-gradient(238.41deg, #09153F 1.24%, #002BC2 57.38%);
+    border-radius: 100px;
+}
+
+.hero-img {
+    display: flex;
+    align-items: center;
+}
+
+.hero-img img {
+    width: 680px;
+}
+
+/* about section */
+
+
+.about-container {
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 500px;
+    background: #C4D4FF;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.about-container div:first-child {
+    width: 30%;
+    background: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 500px 0 0 500px;
+}
+
+.about-container div:last-child {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.about-container div:last-child p {
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: 200;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+/* Service Section */
+.service-section {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 80vh;
+    padding: 0 40px;
+}
+
+.service-section > div {
+    padding: 30px;
+    margin: 30px;
+    display:flex;
+    width: 50%
+    
+    
+}
+
+.service-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 25px;
+}
+
+.service-info h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 200    px;
+    color: blue;
+    text-align: left;
+    /* background: linear-gradient(90.79deg, #0048FF 3.42%, #D6008D 82.66%);  */
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; */
+}
+.service-info h2{
+    font-family:   'GT Walsheim Pro',sans-serif;
+    font-weight: 800px;
+    font-size:40px;
+    color:#0048FF;
+    text-align: center;
+    margin-bottom:50px;
+
+}
+
+.service-info p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
+
+    color: #555555;
+}
+
+#service-learn-more-btn {
+    width: 200px;
+    padding: 10px 30px;
+    border-color: #0048FF;
+    background: white;
+    border-radius: 100px;
+}
+.service-img img {
+    
+    width: auto;
+    height:500px;
+}
+.service-img {
+    display: flex;  
+    align-items: center;
+    float:right;
+}
+
+.our-service { 
+    font-family:   'GT Walsheim Pro',sans-serif;
+    font-weight: 800px;
+    font-size:40px;
+    color:#0048FF;
+    text-align: right;
+    margin-bottom:50px;
+
+}
+
+.our-service-section { 
+   padding:0;
+   margin:0;
+   height: auto;
+   width:auto;
+
+
+}
+.our-service-section h2 { 
+    font-family:   'GT Walsheim Pro',sans-serif;
+    font-weight: 800px;
+    font-size:40px;
+    color:#0048FF;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:5px;
+
+
+
+}
+/* Service Map Section */
+.service-map { 
+    padding:0;
+    margin:0;
+    height: auto;
+    width:auto;
+ 
+ 
+ }
+
+.service-map h2 { 
+    font-family:   'GT Walsheim Pro',sans-serif;
+    font-weight: 800px;
+    font-size:40px;
+    color:#0048FF;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:5px;
+
+
+
+}
