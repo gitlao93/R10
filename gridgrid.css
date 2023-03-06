@@ -1,0 +1,95 @@
+body {
+    display: grid;
+    width: 1440px;
+    height: 727px;
+    grid-template-areas:
+        'header header header header header header'
+        'menu main main main main right'
+        'menu main main main main right'
+        'menu main main main main right'
+        'menu main main main main right'
+        'menu footer footer footer footer footer';
+    gap: 10px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+header.header {
+    display: grid;
+    background-color: yellow;
+    grid-area: header;
+}
+
+main.main {
+    display: grid;
+    background-color: deeppink;
+    grid-area: main;
+}
+
+menu.menu {
+    display: grid;
+    background-color: red;
+    grid-area: menu;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+right.right {
+    display: grid;
+    grid-area: right;
+    background-color: #3fdf3f;
+}
+
+footer.footer {
+    display: grid;
+    background-color: blue;
+    grid-area: footer;
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        display: grid;
+        width: 1024px;
+        height: 727px;
+        grid-template-areas:
+            'header header header header header header header'
+            'main main main main main right right'
+            'main main main main main right right'
+            'main main main main main right right'
+            'main main main main main right right'
+            'footer footer footer footer footer footer footer';
+        gap: 0px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    menu.menu {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 430px) {
+    body {
+        display: grid;
+        width: 430px;
+        height: 727px;
+        grid-template-areas:
+            'header header header'
+            'main main main'
+            'main main main'
+            'main main main'
+            'main main main'
+            'footer footer footer ';
+        gap: 0px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    menu.menu {
+        display: none;
+    }
+
+    right.right {
+        display: none;
+    }
+  }
