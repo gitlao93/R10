@@ -176,6 +176,7 @@ section.Our-Service-Section {
     align-items: center;
     float: center;
     justify-content: center;
+    text-align: center;
 }
 
 h1#Our-Services-Text {
@@ -186,6 +187,7 @@ h1#Our-Services-Text {
     font-size: 40px;
     line-height: 46px;
     color: #0048FF;
+    text-align: center;
     
 }
 
